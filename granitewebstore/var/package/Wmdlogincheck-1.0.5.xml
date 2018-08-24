@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package>
+    <name>Wmdlogincheck</name>
+    <version>1.0.5</version>
+    <stability>stable</stability>
+    <license uri="http://wmdextensions.com/license.txt">EULA</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Login Check extension is checking for user login, if not redirects to login page. CMS Pages and actions of your choice. </summary>
+    <description>Login Check extension  stops not registered users from seeing your shops content. You can allow unregistered users to see CMS Pages of your choice(eg. contacts). And you can allow or disallow new users to register and disable the 'Forgott Your Password?' link.</description>
+    <notes>- magento 1.9.x compatible&#xD;
+- rwd enabled&#xD;
+- observing customer_registration_is_allowed</notes>
+    <authors><author><name>Dominik Wyss</name><user>justanother</user><email>info@digiswiss.ch</email></author></authors>
+    <date>2014-11-21</date>
+    <time>10:32:17</time>
+    <contents><target name="magecommunity"><dir name="Wmd"><dir name="Wmdlogincheck"><dir name="Helper"><file name="Data.php" hash="44e952f1dab139378d03e36c7f0d2fe0"/><file name="Observer.php" hash="830a4e35708447ccaf135cd93440442b"/></dir><dir name="Model"><dir name="System"><dir name="Config"><dir name="Backend"><dir name="Wmdlogincheck"><dir name="Pages"><file name="Allowed.php" hash="8cab48d5a392303c30dd2be9680b7e95"/></dir></dir></dir><dir name="Source"><dir name="Customer"><dir name="Logincheck"><file name="Actions.php" hash="3f105fc38ab520a79ff367c19bb3de86"/></dir></dir></dir></dir></dir></dir><dir name="etc"><file name="adminhtml.xml" hash="dd94685290cb7d65f2d888a7ba9bbe96"/><file name="config.xml" hash="228791ec8dc1caf474a09e916490ba6d"/><file name="system.xml" hash="b2e7529ba9bc4f469ea6f0bd0c00623d"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Wmd_Wmdlogincheck.xml" hash="c1914255456abe4874374b07425a8532"/></dir></target><target name="magelocale"><dir name="en_US"><file name="Wmd_Logincheck.csv" hash="61ba2a781aa7a0ae23ef4d069431e168"/></dir></target><target name="magedesign"><dir name="frontend"><dir name="default"><dir name="default"><dir name="template"><dir name="persistent"><dir name="customer"><dir name="form"><file name="login.phtml" hash="a905abe287fb5e065e7dac3adf2cbdf5"/></dir></dir></dir></dir></dir></dir><dir name="rwd"><dir name="logincheck"><dir name="template"><dir name="customer"><dir name="form"><file name="login.phtml" hash="7a653b3e52bc00573222a1ea2b1d471e"/></dir></dir><dir name="persistent"><dir name="customer"><dir name="form"><file name="login.phtml" hash="c335024e75dafb5ce16ec1f6554e4ef6"/></dir></dir></dir></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php></required></dependencies>
+</package>

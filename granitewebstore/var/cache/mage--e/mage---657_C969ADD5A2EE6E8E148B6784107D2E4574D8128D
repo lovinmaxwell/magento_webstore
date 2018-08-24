@@ -1,0 +1,117 @@
+<div class="navleft-container visible-lg visible-md">
+				<div class="megamenu-title"><h2>Categories</h2></div>
+		    <div id="pt_vmegamenu" class="pt_vmegamenu">
+        
+        <div id="pt_menu3" class="pt_menu first">
+<div class="parentMenu noSubMenu">
+<a href="http://wisdomkraft.com/granitewebstore/index.php/90-degree-cut.html?___SID=U">
+<span>90&nbsp;degree&nbsp;</span>
+</a>
+</div>
+</div><div id="pt_menu7" class="pt_menu ">
+<div class="parentMenu noSubMenu">
+<a href="http://wisdomkraft.com/granitewebstore/index.php/semi-precious.html?___SID=U">
+<span>Semi&nbsp;precious&nbsp;Stones</span>
+</a>
+</div>
+</div><div id="pt_menu18" class="pt_menu ">
+<div class="parentMenu noSubMenu">
+<a href="http://wisdomkraft.com/granitewebstore/index.php/sonarts.html?___SID=U">
+<span>Stonarts</span>
+</a>
+</div>
+</div><div id="pt_menu9" class="pt_menu ">
+<div class="parentMenu noSubMenu">
+<a href="http://wisdomkraft.com/granitewebstore/index.php/slates.html?___SID=U">
+<span>Slates</span>
+</a>
+</div>
+</div><div id="pt_menu10" class="pt_menu ">
+<div class="parentMenu noSubMenu">
+<a href="http://wisdomkraft.com/granitewebstore/index.php/sand-stones.html?___SID=U">
+<span>Sand&nbsp;Stones</span>
+</a>
+</div>
+</div><div id="pt_menu11" class="pt_menu ">
+<div class="parentMenu noSubMenu">
+<a href="http://wisdomkraft.com/granitewebstore/index.php/elevation-tiles.html?___SID=U">
+<span>Elevation&nbsp;Tiles</span>
+</a>
+</div>
+</div><div id="pt_menu12" class="pt_menu ">
+<div class="parentMenu noSubMenu">
+<a href="http://wisdomkraft.com/granitewebstore/index.php/pooja-rooms-balcony.html?___SID=U">
+<span>Pooja&nbsp;Rooms&nbsp;&amp;&nbsp;Balcony</span>
+</a>
+</div>
+</div><div id="pt_menu13" class="pt_menu act ">
+<div class="parentMenu noSubMenu">
+<a href="http://wisdomkraft.com/granitewebstore/index.php/granite-landscape.html?___SID=U">
+<span>Granite&nbsp;Landscape</span>
+</a>
+</div>
+</div><div id="pt_menu14" class="pt_menu ">
+<div class="parentMenu noSubMenu">
+<a href="http://wisdomkraft.com/granitewebstore/index.php/designer-doors.html?___SID=U">
+<span>Designer&nbsp;Doors</span>
+</a>
+</div>
+</div><div id="pt_menu15" class="pt_menu ">
+<div class="parentMenu noSubMenu">
+<a href="http://wisdomkraft.com/granitewebstore/index.php/heritage-furniture.html?___SID=U">
+<span>Heritage&nbsp;Furniture</span>
+</a>
+</div>
+</div><div id="pt_menu16" class="pt_menu ">
+<div class="parentMenu noSubMenu">
+<a href="http://wisdomkraft.com/granitewebstore/index.php/counter-top.html?___SID=U">
+<span>Counter&nbsp;Top</span>
+</a>
+</div>
+</div><div id="pt_menu19" class="pt_menu ">
+<div class="parentMenu noSubMenu">
+<a href="http://wisdomkraft.com/granitewebstore/index.php/cobble-stones.html?___SID=U">
+<span>Cobble&nbsp;Stones</span>
+</a>
+</div>
+</div><div id="pt_menu20" class="pt_menu ">
+<div class="parentMenu noSubMenu">
+<a href="http://wisdomkraft.com/granitewebstore/index.php/cultured-stones.html?___SID=U">
+<span>Cultured&nbsp;Stones</span>
+</a>
+</div>
+</div><div id="pt_menu21" class="pt_menu last">
+<div class="parentMenu noSubMenu">
+<a href="http://wisdomkraft.com/granitewebstore/index.php/dolpur-stones.html?___SID=U">
+<span>Dolpur&nbsp;Stones</span>
+</a>
+</div>
+</div>        
+                
+        <div class="clearBoth"></div>
+    </div>
+</div>
+<script type="text/javascript">
+//<![CDATA[
+var VMEGAMENU_POPUP_EFFECT = 2;
+//]]>
+
+$jq(document).ready(function(){
+    $jq("#pt_menu_link ul li").each(function(){
+        var url = document.URL;
+        $jq("#pt_menu_link ul li a").removeClass("act");
+        $jq('#pt_menu_link ul li a[href="'+url+'"]').addClass('act');
+    }); 
+        
+    $jq('.pt_menu').hover(function(){
+        if(VMEGAMENU_POPUP_EFFECT == 0) $jq(this).find('.popup').stop(true,true).slideDown('slow');
+        if(VMEGAMENU_POPUP_EFFECT == 1) $jq(this).find('.popup').stop(true,true).fadeIn('slow');
+        if(VMEGAMENU_POPUP_EFFECT == 2) $jq(this).find('.popup').stop(true,true).show('slow');
+    },function(){
+        if(VMEGAMENU_POPUP_EFFECT == 0) $jq(this).find('.popup').stop(true,true).slideUp('fast');
+        if(VMEGAMENU_POPUP_EFFECT == 1) $jq(this).find('.popup').stop(true,true).fadeOut('fast');
+        if(VMEGAMENU_POPUP_EFFECT == 2) $jq(this).find('.popup').stop(true,true).hide('fast');
+    })
+});
+</script>
+

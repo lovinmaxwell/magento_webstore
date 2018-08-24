@@ -1,0 +1,9 @@
+<?php /* @var $this Wisepops_Connect_Block_Wisepops */ ?>
+<?php if ($this->isWisepopsActivated()) : ?>
+<?php $wisepopsUserId = $this->getWisepopsUserId(); ?>
+<?php if (!empty($wisepopsUserId)) : ?>
+<script type="text/javascript">(function() {var s = document.createElement('script');s.type = 'text/javascript';s.async = true;
+    s.src = document.location.protocol + '//wisepops.com/default/index/get-loader?user_id=<?php echo $this->getWisepopsUserId(); ?>';
+    var s2 = document.getElementsByTagName('script')[0];s2.parentNode.insertBefore(s, s2);})();</script>
+<?php endif;?>
+<?php endif; ?>

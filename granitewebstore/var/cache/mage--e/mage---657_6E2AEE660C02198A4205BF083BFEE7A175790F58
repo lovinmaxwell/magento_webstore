@@ -1,0 +1,30 @@
+
+<form id="search_mini_form" action="http://wisdomkraft.com/granitewebstore/index.php/catalogsearch/result/?___SID=U" method="get">
+    <div class="form-search">
+        <label for="search">Search:</label>
+        <div class="box-select">
+        <div class="header-select">
+            <select class="selectpicker" id="cat" name="cat">
+                <option value="">Categories</option>
+                                    <option value="3">90 degree </option>
+                                                                                                                                                        <option value="7">Semi precious Stones</option>
+                                                                                                                                                        <option value="18">Stonarts</option>
+                                                                                                                                                        <option value="9">Slates</option>
+                                                                                                                                                        <option value="10">Sand Stones</option>
+                                                                                                                                                        <option value="11">Elevation Tiles</option>
+                                                                                                                                                        <option value="12">Pooja Rooms & Balcony</option>
+                                                                                                                                                        <option value="13">Granite Landscape</option>
+                                                                                                                                                        <option value="14">Designer Doors</option>
+                                                                                                                                                        <option value="15">Heritage Furniture</option>
+                                                                                                                                                        <option value="16">Counter Top</option>
+                                                                                                                                                        <option value="19">Cobble Stones</option>
+                                                                                                                                                        <option value="20">Cultured Stones</option>
+                                                                                                                                                        <option value="21">Dolpur Stones</option>
+                                                                                                                                                </select>
+        </div>
+        </div>
+        <div class="header-input"><input id="search" type="text" name="q" class="input-text" /></div>
+        <button type="submit" title="Search" class="button"><span><span>Search</span></span></button>
+        <!--<div id="search_autocomplete" class="search-autocomplete"></div>-->
+    </div>
+</form>

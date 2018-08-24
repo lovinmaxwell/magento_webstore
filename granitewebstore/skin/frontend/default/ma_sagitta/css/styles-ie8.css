@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'segoe_uilight';
+    src: url('../fonts/ufonts.com_segoe_ui_light-webfont.eot');
+    src: url('../fonts/ufonts.com_segoe_ui_light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/ufonts.com_segoe_ui_light-webfont.woff') format('woff'),
+         url('../fonts/ufonts.com_segoe_ui_light-webfont.ttf') format('truetype'),
+         url('../fonts/ufonts.com_segoe_ui_light-webfont.svg#segoe_uilight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'bebasregular';
+    src: url('../fonts/utm_bebas-webfont.eot');
+    src: url('../fonts/utm_bebas-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/utm_bebas-webfont.woff') format('woff'),
+         url('../fonts/utm_bebas-webfont.ttf') format('truetype'),
+         url('../fonts/utm_bebas-webfont.svg#utm_bebasregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body,.header .search-container .form-search .input-text { font-family:'segoe_uilight' !important; }
+.header-static h2,.top-cart-contain .shopping_cart{ font-family:'bebasregular' !important; }
+.categorytab-slider .tab_categorys li { background: url("../images/bg-right-title.png") no-repeat scroll 100% 50% !important}
+.categorytab-slider .item .item-box-hover,.categorytab-slider .item .price-label .box-price,.ma-newproductslider-container .item-inner .item-box-hover,.ma-mostview-products .item .item-box-hover,.ma-mostview-products .item .price-label .box-price,
+.item-inner .products .product figure>a .product-image+.product-image.item .old-price,.category-products .products-grid .item .price-label .box-price-hover,.categorytab-slider .item .old-price,.ma-mostview-products .item .old-price,
+.item-inner .products .product figure>a .product-image+.product-image{
+    opacity: 0 !important;
+    -ms-filter: "progid:DXImageTransform.Microsoft. Alpha(Opacity=30)"; /* IE 8 hack */
+    filter: alpha(opacity = 0); /* IE 7-5 hack */
+}
+.categorytab-slider .item:hover .item-box-hover,.categorytab-slider .item:hover .price-label .box-price,.ma-newproductslider-container .item-inner:hover .item-box-hover,.ma-mostview-products .item:hover .item-box-hover,
+.ma-mostview-products .item:hover .price-label .box-price,.item-inner:hover .products .product figure .product-image+.product-image,.item-inner:hover .products .product figure .overlay,.item:hover .old-price,
+.category-products .products-grid .item:hover .price-label .box-price-hover,.categorytab-slider .item:hover .old-price,.ma-mostview-products .item:hover .old-price,
+.item-inner:hover .products .product figure .product-image+.product-image,.item-inner:hover .products .product figure .overlay{
+    opacity: 1 !important;
+    -ms-filter: "progid:DXImageTransform.Microsoft. Alpha(Opacity=30)"; /* IE 8 hack */
+    filter: alpha (opacity = 100); /* IE 7-5 hack */
+}
+.category-products .products-grid .item-inner .item-box-hover {
+    opacity: 0 !important;
+    -ms-filter: "progid:DXImageTransform.Microsoft. Alpha(Opacity=30)"; /* IE 8 hack */
+    filter: alpha(opacity = 0); /* IE 7-5 hack */
+    width: 100% !important;
+}
+.category-products .products-grid .item-inner:hover .item-box-hover {
+    opacity: 1 !important;
+    -ms-filter: "progid:DXImageTransform.Microsoft. Alpha(Opacity=30)"; /* IE 8 hack */
+    filter: alpha (opacity = 100); /* IE 7-5 hack */
+    width: 100% !important;
+}
+.products-grid .item-inner .price-label .old-price { display: none !important;}
+.products-grid .item-inner:hover .price-label .old-price { display: block !important;}
+.ma-mostview-products .products-grid { margin-top: 30px !important;}
+.ma-onsaleproductslider-container .products .product figure >.ma-onsaleproductslider-container  a .product-image img,.ma-onsaleproductslider-container .products .product figure >.ma-onsaleproductslider-container  a .product-image +.ma-onsaleproductslider-container  .product-image img,.ma-onsaleproductslider-container  .products .product figure {
+    height: 300px !important;
+    width: 300px !important;
+}
+.ma-featured-products .product-image img,.ma-bestseller-vertscroller-wrap .product-image img { height: 100px !important;}

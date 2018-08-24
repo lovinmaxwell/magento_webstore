@@ -1,0 +1,407 @@
+<?xml version="1.0"?>
+<ma_sagitta>
+    <blocks>
+
+        <block>
+            <title>Banner Static</title>
+            <identifier>home_banner_static</identifier>
+            <content>
+                    <![CDATA[
+			<div class="banner-static-contain">
+			<div class="home-banner-static row">
+			<div class="banner-box banner-box1 col-sm-4 col-md-4 col-sms-12 col-smb-12"><a href="{{store direct_url="shirts.html"}}"><img src="{{media url="wysiwyg/block1.jpg"}}" alt="" /></a></div>
+			<div class="banner-box banner-box2 col-sm-4 col-md-4 col-sms-12 col-smb-12"><a href="{{store direct_url="pants.html"}}"><img src="{{media url="wysiwyg/block2.jpg"}}" alt="" /></a></div>
+			<div class="banner-box banner-box3 col-sm-4 col-md-4 col-sms-12 col-smb-12"><a href="{{store direct_url="jeans.html"}}"><img src="{{media url="wysiwyg/block3.jpg"}}" alt="" /></a></div>
+			</div>
+			</div>
+		    ]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+
+
+        <block>
+            <title>Footer Static</title>
+            <identifier>footer_static</identifier>
+            <content>
+                <![CDATA[
+		<div class="f-col col-sm-6 col-md-3 col-sms-6 col-smb-12">
+		<div class="footer-static-title f-title1">
+		<h3>TESTIMONIALS</h3>
+		</div>
+		<div class="footer-static-content">
+		<p>&ldquo; This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum &rdquo;</p>
+		<div class="f-name">
+		<p>- Danielle Sharp -</p>
+		</div>
+		</div>
+		</div>
+		<div class="f-col f-col2 col-sm-6 col-md-2 col-sms-6 col-smb-12">
+		<div class="footer-static-title f-title2">
+		<h3>MY ACCOUNT</h3>
+		</div>
+		<div class="footer-static-content row-fluid">
+		<ul>
+		<li class="first"><a href="{{store direct_url="catalog/seo_sitemap/category"}}">Sitemap</a></li>
+		<li><a href="{{store direct_url="privacy-policy-cookie-restriction-mode"}}">Privacy Policy</a></li>
+		<li><a href="{{store direct_url="customer/account/index"}}">Your Account</a></li>
+		<li><a href="{{store direct_url="catalogsearch/advanced"}}">Advanced Search</a></li>
+		<li class="last"><a href="{{store direct_url="contacts"}}">Contact Us</a></li>
+		</ul>
+		</div>
+		</div>
+		<div class="f-col f-col3 col-sm-6 col-md-2 col-sms-6 col-smb-12">
+		<div class="footer-static-title f-title3">
+		<h3>INFORMATION</h3>
+		</div>
+		<div class="footer-static-content">
+		<ul>
+		<li class="first"><a href="{{store direct_url="customer/account/index/"}}">My Account</a></li>
+		<li><a href="sales/order/history/">Order History</a></li>
+		<li><a href="#">Returns</a></li>
+		<li><a href="#">Specials</a></li>
+		<li class="last"><a href="{{store direct_url="catalog/seo_sitemap/category"}}">Site Map</a></li>
+		</ul>
+		</div>
+		</div>
+		<div class="f-col f-col3 col-sm-6 col-md-2 col-sms-6 col-smb-12">
+		<div class="footer-static-title f-title4">
+		<h3>WHY BUY FROM US</h3>
+		</div>
+		<div class="footer-static-content">
+		<ul>
+		<li class="first"><a href="{{store direct_url="catalog/seo_sitemap/category"}}">Site Map</a></li>
+		<li><a href="#">Specials</a></li>
+		<li><a href="#">Returns</a></li>
+		<li><a href="sales/order/history/">Order History</a></li>
+		<li class="last"><a href="{{store direct_url="customer/account/index/"}}">My Account</a></li>
+		</ul>
+		</div>
+		</div>
+		<div class="f-col f-col4 col-sm-12 col-md-3">
+		<div class="footer-static-title f-title5">
+		<h3>ABOUT US</h3>
+		</div>
+		<div class="footer-static-content">
+		<div class="f-adress">
+		<p>8901 Marmora Road, Glasgow, D04 89GR</p>
+		</div>
+		<div class="f-phone">
+		<p>Telephone: (801) 2345 - 6789</p>
+		</div>
+		<div class="f-email">
+		<p>E-mail: support@plazathemes.com</p>
+		</div>
+		<div class="f-payment"><img src="{{media url="wysiwyg/payment.png"}}" alt="" /></div>
+		</div>
+		</div>
+		]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+	
+	<block>
+            <title>Banner Left</title>
+            <identifier>banner_left</identifier>
+            <content>
+                <![CDATA[
+		<div class="banner-left"><a href="{{store direct_url="shirts.html"}}"><img src="{{media url="wysiwyg/banner-left.png"}}" alt="" /></a></div>
+		]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+	
+	<block>
+            <title>Banner Right</title>
+            <identifier>banner_right</identifier>
+            <content>
+                <![CDATA[
+		<div class="banner-right"><a href="{{store direct_url="shirts.html"}}"><img src="{{media url="wysiwyg/banner-right.png"}}" alt="" /></a></div>
+		]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+	
+	<block>
+            <title>Header Static</title>
+            <identifier>header_static</identifier>
+            <content>
+                <![CDATA[
+		<div class="header-static">
+		<div class="container">
+		<div class="row">
+		<div class="f-col col-sm-6 col-md-3 col-sms-6 col-smb-12">
+		<div class="header-time">
+		<h2>WORKING TIME</h2>
+		<p>8.00 AM - 10.00 PM</p>
+		</div>
+		</div>
+		<div class="f-col col-sm-6 col-md-3 col-sms-6 col-smb-12">
+		<div class="header-shipping">
+		<h2>FREE SHIPPING &amp; RETURN</h2>
+		<p>On Order Over $100</p>
+		</div>
+		</div>
+		<div class="f-col col-sm-6 col-md-3 col-sms-6 col-smb-12">
+		<div class="header-money">
+		<h2>100% Money Back</h2>
+		<p>30 Days Money Back Guarantee</p>
+		</div>
+		</div>
+		<div class="f-col col-sm-6 col-md-3 col-sms-6 col-smb-12">
+		<div class="header-phone">
+		<h2>PHONE: 0123-456-789</h2>
+		<p>Order Online Now !</p>
+		</div>
+		</div>
+		</div>
+		</div>
+		</div>
+		]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+	
+	<block>
+            <title>Custom Block</title>
+            <identifier>custom_block</identifier>
+            <content>
+                <![CDATA[
+		<div class="custom-block">
+		<div class="custom-block-title">
+		<h2>Latest news</h2>
+		</div>
+		<div class="custom-block-content">
+		<div class="custom-block-text">
+		<p>"This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum"</p>
+		</div>
+		</div>
+		</div>
+		]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+	
+	<block>
+            <title>Banner Center One</title>
+            <identifier>banner_center_one</identifier>
+            <content>
+                <![CDATA[
+		<div class="banner_center_one">
+		<div class="row">
+		<div class="col-md-8 col-sm-8 col-sms-12">
+		<div class="banner-images"><a href="{{store direct_url="shirts.html"}}"><img src="{{media url="wysiwyg/banner-images.png"}}" alt="" /></a></div>
+		</div>
+		<div class="col-md-4 col-sm-4 col-sms-12">
+		<div class="banner-images1"><a href="{{store direct_url="shirts.html"}}"><img src="{{media url="wysiwyg/banner1-images.png"}}" alt="" /></a></div>
+		</div>
+		</div>
+		</div>
+		]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+	
+	<block>
+            <title>Banner Subscribe</title>
+            <identifier>banner_subscribe</identifier>
+            <content>
+                <![CDATA[
+		<div class="banner-subscribe">{{block type="newsletter/subscribe" name="left.newsletter" template="newsletter/subscribe.phtml"}}</div>
+		]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+	
+	<block>
+            <title>Categories</title>
+            <identifier>pt_item_menu_categories</identifier>
+            <content>
+                <![CDATA[
+		<div class="static_block_custom_menu">
+		<div class="custom col">
+		<div class="custom-images"><a href="{{store direct_url="shirts.html"}}"><img src="{{media url="wysiwyg/category.png"}}" alt="" /></a></div>
+		<div class="custom-images1"><a href="{{store direct_url="pants.html"}}"><img src="{{media url="wysiwyg/category1.png"}}" alt="" /></a></div>
+		<div class="custom-images2"><a href="{{store direct_url="jeans.html"}}"><img src="{{media url="wysiwyg/category2.png"}}" alt="" /></a></div>
+		</div>
+		<div class="custom col1">
+		<div class="custom-images3"><a href="{{store direct_url="outer-wear.html"}}"><img src="{{media url="wysiwyg/category3.png"}}" alt="" /></a></div>
+		<div class="custom-images4"><a href="{{store direct_url="dresses.html"}}"><img src="{{media url="wysiwyg/category4.png"}}" alt="" /></a></div>
+		<div class="custom-images5"><a href="{{store direct_url="shoes.html"}}"><img src="{{media url="wysiwyg/category5.png"}}" alt="" /></a></div>
+		</div>
+		<div class="custom col2">
+		<div class="custom-images6"><a href="{{store direct_url="accessories-1.html"}}"><img src="{{media url="wysiwyg/category6.png"}}" alt="" /></a></div>
+		<div class="custom-images7"><a href="{{store direct_url="sports.html"}}"><img src="{{media url="wysiwyg/category7.png"}}" alt="" /></a></div>
+		<div class="custom-images8"><a href="{{store direct_url="underwear.html"}}"><img src="{{media url="wysiwyg/category8.png"}}" alt="" /></a></div>
+		</div>
+		</div>
+		]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+	
+	<block>
+            <title>Contact Us</title>
+            <identifier>pt_menu_links</identifier>
+            <content>
+                <![CDATA[
+		<ul>
+		<li><a href="{{store url="bestsellerproductlist"}}">Sale products</a></li>
+		<li><a href="{{store direct_url="newproductlist"}}">New products</a></li>
+		<li><a href="{{store url="contacts"}}">Contact Us</a></li>
+		<li><a href="{{store direct_url="about-magento-demo-store"}}">About us</a></li>
+		</ul>
+		]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+	
+	<block>
+            <title>Featured Custom</title>
+            <identifier>pt_item_menu_featured_custom</identifier>
+            <content>
+                <![CDATA[
+		<div class="feature-catlist">{{block type="catlist/catlist" name="catlist" template="magentothem/catlist/catlist.phtml"}}</div>
+		]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+	
+	<block>
+            <title>Static Right</title>
+            <identifier>static_right</identifier>
+            <content>
+                <![CDATA[
+		<div class="static-left">
+		<div class="static-left-content">
+		<div class="l-col facebook">
+		<div class="box-left">
+		<div class="l-text"><a href="https://www.facebook.com/magentothem">Find us on Facebook</a></div>
+		</div>
+		</div>
+		<div class="l-col insta">
+		<div class="box-left">
+		<div class="l-text"><a href="http://instagram.com/">Find us on Instagram</a></div>
+		</div>
+		</div>
+		<div class="l-col twitter">
+		<div class="box-left">
+		<div class="l-text"><a href="https://twitter.com/plazathemes">Find us on Twitter</a></div>
+		</div>
+		</div>
+		<div class="l-col dribble">
+		<div class="box-left">
+		<div class="l-text"><a href="http://blog.dribbble.com/">Find us on Dribble</a></div>
+		</div>
+		</div>
+		<div class="l-col pinterest">
+		<div class="box-left">
+		<div class="l-text"><a href="https://www.pinterest.com/">Find us on Pinterest</a></div>
+		</div>
+		</div>
+		<div class="l-col google">
+		<div class="box-left">
+		<div class="l-text"><a href="https://plus.google.com">Find us on Google +</a></div>
+		</div>
+		</div>
+		</div>
+		</div>
+		]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+	
+	<block>
+            <title>Our Brands</title>
+            <identifier>pt_item_menu_brands</identifier>
+            <content>
+                <![CDATA[
+		<div class="static_block_brands">
+		<div class="brands col">
+		<div class="brands-images"><a href="#"><img src="{{media url="wysiwyg/cus-brands.png"}}" alt="" /></a></div>
+		<div class="brands-images1"><a href="#"><img src="{{media url="wysiwyg/cus1-brands.png"}}" alt="" /></a></div>
+		<div class="brands-images2"><a href="#"><img src="{{media url="wysiwyg/cus2-brands.png"}}" alt="" /></a></div>
+		<div class="brands-images3"><a href="#"><img src="{{media url="wysiwyg/cus3-brands.png"}}" alt="" /></a></div>
+		</div>
+		<div class="brands col1">
+		<div class="brands-images4"><a href="#"><img src="{{media url="wysiwyg/cus4-brands.png"}}" alt="" /></a></div>
+		<div class="brands-images5"><a href="#"><img src="{{media url="wysiwyg/cus5-brands.png"}}" alt="" /></a></div>
+		<div class="brands-images6"><a href="#"><img src="{{media url="wysiwyg/cus6-brands.png"}}" alt="" /></a></div>
+		<div class="brands-images7"><a href="#"><img src="{{media url="wysiwyg/cus7-brands.png"}}" alt="" /></a></div>
+		</div>
+		</div>
+		]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+	
+	<block>
+            <title>Static Sub Menu Col Right</title>
+            <identifier>pt_menu_idcat_4_right</identifier>
+            <content>
+                <![CDATA[
+		<div class="custom-menu-right">
+		<div class="menu-right-images">
+		<div class="m-images col"><a href="#"><img src="{{media url="wysiwyg/m-images.jpg"}}" alt="" /></a></div>
+		<div class="m-images col1"><a href="#"><img src="{{media url="wysiwyg/m-images1.jpg"}}" alt="" /></a></div>
+		</div>
+		</div>
+		]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+	
+	<block>
+            <title>Custom Menu</title>
+            <identifier>pt_item_menu_block</identifier>
+            <content>
+                <![CDATA[
+		<div class="static_custom_block">
+		<div class="menu-custom-block col">
+		<div class="custom-block-title">
+		<h2>CUSTOM BLOCK</h2>
+		</div>
+		<p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit.</p>
+		</div>
+		<div class="menu-custom-block col1">
+		<div class="custom-block-images"><a href="{{store direct_url="shirts.html"}}"><img src="{{media url="wysiwyg/img-menu-cus.png"}}" alt="" /></a></div>
+		<p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velitauct auctor aliquet.</p>
+		<div class="cuttom-link"><a href="{{store direct_url="shirts.html"}}">View all features &raquo;</a></div>
+		</div>
+		<div class="menu-custom-block col2">
+		<div class="custom-block-images"><a href="{{store direct_url="pants.html"}}"><img src="{{media url="wysiwyg/img1-menu-cus.png"}}" alt="" /></a></div>
+		<p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velitauct auctor aliquet.</p>
+		<div class="cuttom-link"><a href="{{store direct_url="pants.html"}}">View all features &raquo;</a></div>
+		</div>
+		</div>
+		]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+	
+	<block>
+            <title>Static Sub Menu Bottom</title>
+            <identifier>pt_menu_idcat_8</identifier>
+            <content>
+                <![CDATA[
+		<div class="custom-menu-bottom">
+		<div class="menu-bottom images">
+		<div class="cus-image"><img src="{{media url="wysiwyg/bottom-left-menu.png"}}" alt="" /></div>
+		</div>
+		<div class="menu-bottom images1">
+		<div class="cus-image"><img src="{{media url="wysiwyg/bottom-left-menu.png"}}" alt="" /></div>
+		</div>
+		<div class="menu-bottom images2">
+		<div class="cus-image"><img src="{{media url="wysiwyg/bottom-left-menu.png"}}" alt="" /></div>
+		</div>
+		</div>
+		]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+	
+	
+    </blocks>
+
+</ma_sagitta>
+

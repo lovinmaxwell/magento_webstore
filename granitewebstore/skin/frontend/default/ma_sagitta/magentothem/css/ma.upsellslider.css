@@ -1,0 +1,12 @@
+.ma-upsellslider-container { margin:40px 0 0; float: left; width: 100%;}
+.ma-upsellslider-container .bx-viewport { margin: 26px 0 0;}
+.ma-upsellslider-container .bx-wrapper { position: relative; float:left; width: 100%; max-width: 100% !important; }
+.ma-upsellslider-container .bx-wrapper .bx-controls a { margin-top: -65px;}
+.product-view .ma-upsellslider-item .ratings { margin: 10px 0; width: auto; float: right;}
+.ma-upsellslider-item { float: left; text-align: left;}
+.ma-upsellslider-container .old-price .price {font-size: 14px;}
+.ma-upsellslider-container .price-box .old-price { margin: 0 0 0 6px;}
+.ma-upsellslider-item a.product-image { display: block;}
+.ma-upsellslider-container  .bx-wrapper .bx-controls a { top:200px;}
+.ma-upsellslider-container .bx-wrapper .bx-controls .bx-prev {left: -20px;}
+.ma-upsellslider-container .bx-wrapper .bx-controls .bx-next { right: -20px;}

@@ -1,0 +1,8 @@
+<config>
+  <modules>
+    <Wisepops_Connect>
+      <active>true</active>
+      <codePool>community</codePool>
+    </Wisepops_Connect>
+  </modules>
+</config>

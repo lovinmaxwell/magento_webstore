@@ -1,0 +1,34 @@
+.ma-tabsproduct-contain {
+    float: left;
+    clear: both;
+    width: 100%;
+    margin-top: 20px;
+}
+.ma-tabs-title {
+    background: #666;
+    padding: 0;
+    float: left;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.tabs-title { float: left; margin: 0 !important; padding-left: 0 !important; }
+.ma-tabs-title li {
+    float: left;
+}
+.ma-tabs-title li.first {
+    margin-left: 0;
+}
+.ma-tabs-title a {
+    float: left;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 15px;
+    text-transform: uppercase;
+}
+.ma-tabs-title li.active a, .ma-tabs-title a:hover {
+    background: #9b9b9b;
+    font-weight: normal;
+}
+.ma-tabs-content {
+
+}

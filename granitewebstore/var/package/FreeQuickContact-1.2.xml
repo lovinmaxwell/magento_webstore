@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>FreeQuickContact</name>
+    <version>1.2</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">Open Software License (OSL)</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Quick Contact - Free Frontend Version</summary>
+    <description>Quick Contact allow customers send the feadback to your site in easiest and fastest way.</description>
+    <notes>Compatible with magento 1.2.x - 1.4.x</notes>
+    <authors><author><name>Hai NGUYEN</name><user>auto-converted</user><email>haint@hello-magento.com</email></author></authors>
+    <date>2010-03-07</date>
+    <time>03:16:03</time>
+    <contents><target name="magedesign"><dir name="frontend"><dir name="default"><dir name="default"><dir name="layout"><file name="quickcontact.xml" hash="0c67c747f9bb31b2146feeffe19864e7"/></dir><dir name="template"><dir name="quickcontact"><file name="form.phtml" hash="1d6ca9b452c3082d18b311361b0fe29b"/></dir></dir></dir></dir></dir></target><target name="mageskin"><dir name="frontend"><dir name="default"><dir name="default"><dir name="quickcontact"><dir name="css"><file name="form-contact.css" hash="b88c4f0aed5b81ce893f940f7ed83555"/></dir><dir name="images"><file name="bg-form.jpg" hash="3362a2c545720e6d6d0046428837f113"/><file name="btn_feedback.png" hash="bc8c806af4349a12b8236272025c0cc7"/><file name="btn_feedback_hover.png" hash="28d7d7a5fc21f47b5280019e8c9a50f3"/><file name="close.jpg" hash="0b58262e22995510793e7e4c8388639c"/><file name="close1.jpg" hash="2877fee2bb8c694ce0a13c412c3ef185"/><file name="opc-ajax-loader.gif" hash="e805ea7eca1f34c75ba0f93780d32d38"/><file name="submit.jpg" hash="55589899a7a6aa62dd7be7bc2b67da65"/><file name="submit1.jpg" hash="9dc8e40a7970bedae051539aa41c025a"/><file name="Thumbs.db" hash="03590ebd40f08c1f44a05647dc4f8782"/></dir></dir></dir></dir></dir></target><target name="magecommunity"><dir name="HM"><dir name="QuickContact"><dir name="Block"><file name="Info.php" hash="3174bfe735e874f5b4c3187c8a02c35d"/></dir><dir name="controllers"><file name="IndexController.php" hash="b1f875475ca27529df6e129ac67cbf29"/></dir><dir name="etc"><file name="config.xml" hash="b73b1530e90604dd9ac0de223f93d4c8"/><file name="system.xml" hash="93677067ac9c3d8ecdfe2f9854c8e36f"/></dir><dir name="Helper"><file name="Data.php" hash="54740f25c2c9efb888534cf30e593762"/></dir></dir></dir></target><target name="mage"><dir name="js"><dir name="quickContact"><file name="base64.php" hash="aa2a120c3754e3e5efd20ff422e42e4e"/><file name="jquery.js" hash="2f707d60838815edabe31a749ef6ff40"/><file name="jquery_noconflict.js" hash="afdd9b4ecb226d898fe655136f849752"/><file name="modalwindow.js" hash="236447a5e630ce62edf7577cc21f355e"/><file name="quickContact.js" hash="35e5e24a64594c29e54de68e0afaae9f"/></dir></dir></target><target name="mageetc"><dir name="modules"><file name="HM_QuickContact.xml" hash="1229888af1f37ebd51af70e5a32f6deb"/></dir></target></contents>
+    <compatible/>
+    <dependencies/>
+</package>

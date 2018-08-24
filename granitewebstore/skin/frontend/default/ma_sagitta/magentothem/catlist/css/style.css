@@ -1,0 +1,17 @@
+	.catlist { width:100% !important;}
+	.catlist h2{
+		padding-left: 10px;
+		text-transform: uppercase; 
+	}
+	.catgrid {
+		margin:0 30px 0 0;
+		float: left;
+		width: 140px;
+	}
+	.catgrid.last { margin: 0;}
+	.catlist .last {
+		border-right: none;
+	}
+	.catlist_level_top img {
+		width: 100%;
+	}

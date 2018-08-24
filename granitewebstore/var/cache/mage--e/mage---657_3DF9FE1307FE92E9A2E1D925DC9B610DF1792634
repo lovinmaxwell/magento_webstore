@@ -1,0 +1,80 @@
+    <div class="container">
+<div class="container-inner">
+<div class="ma-brand-slider-contain">
+              	<ul class="bxslider">
+				            </ul>
+            <script type="text/javascript">
+			       //<![CDATA[
+					$jq(document).ready(function(){
+					  $jq('.ma-brand-slider-contain .bxslider').bxSlider(
+						{
+												  speed: 1000,
+						  pause: 600,			  
+						  minSlides: 2,
+						  infiniteLoop: false,
+						  maxSlides: 10,
+						  slideWidth: 170,
+						  slideMargin:25,
+					      
+						  pager:false, 
+																			controls: true,
+												moveSlides: 2
+						}
+					  );
+					});
+				//]]>
+				</script>	
+</div>
+</div>
+</div> <div class="footer-static-container">
+    <div class="container">
+        <div class="footer-static row">
+            
+<div class="f-col f-col4 col-sm-12 col-md-3">
+<div class="footer-static-title f-title5">
+<h3>ABOUT US</h3>
+<p>#31/35 Nanjappa layout,Adugodi,Kormangala,</p>
+<p>Bangalore,560030</p>
+</div>
+<div class="footer-static-content">
+<div class="f-adress">
+<p>Telephone: (080)-22101010,22111010,</p>
+<p>mob: 09844441010,09880401010</p>
+<p>Fax: 22217606</p>
+</div>
+<div class="f-email">
+<p>E-mail: feedback@stonarts.com</p>
+</div>
+<div class="f-payment"><img src="http://wisdomkraft.com/granitewebstore/media/wysiwyg/payment.png" alt="" /></div>
+</div>
+</div>        </div>
+    </div>
+</div>
+<div class="ma-footer-container">
+    <div class="container">
+        <div class="footer">
+            <div class="row">
+                <div class="col-xs-12 col-sm-6">
+                    <address>&copy; 2014 Stonarts  . All Rights Reserved.</address>
+                </div>
+                <div class="col-xs-12 col-sm-6">
+                    <div class="box-footer">
+                                        <div class="f-images">
+                    
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <div id="back-top" class="hidden-xs"></div>
+        </div>
+    </div>
+</div>
+
+
+    <script type="text/javascript">
+
+            jQuery('.selectpicker').selectpicker({
+                'selectedText': 'cat'
+            });
+
+    </script>

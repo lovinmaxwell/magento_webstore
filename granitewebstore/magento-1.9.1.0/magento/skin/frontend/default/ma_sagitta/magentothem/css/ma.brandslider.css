@@ -1,0 +1,28 @@
+.ma-brand-slider-contain { position: relative; z-index: 9; width: 100%; border: 1px solid #f1f1f1; padding: 10px; display: inline-block; border-radius: 10px; margin: 20px 0 0;}
+.ma-brand-slider-contain .bx-wrapper .bx-controls a  { display: none;}
+.ma-brand-slider-contain:hover .bx-wrapper .bx-controls a  { display: block;}
+.ma-brand-slider-contain .bx-wrapper { position: relative; float: none; max-width: 100% !important;}
+.ma-brand-slider-contain .bx-viewport {
+    margin:0;
+    max-width: 100% !important;
+    min-height: 90px;
+}
+.cms-index-index .ma-brand-slider-contain  { margin:0;}
+.ma-brand-slider-contain .item { list-style: none;}
+.ma-brand-slider-contain  .brand-title {
+    background: url("../images/bg-bottom1-title.png") repeat-x scroll left bottom;
+    float: left;
+    width: 100%;
+    display: none;
+}
+.brand-title h2 {
+    background: url("../images/bg-bottom-title.png") no-repeat scroll left bottom;
+    color: #777777;
+    font-family: 'titilliumwebsemibold';
+    font-size: 20px;
+    margin: 0;
+    padding: 0 0 15px;
+    text-transform: uppercase;
+}
+
+.ma-brand-slider-contain .bx-wrapper .bx-controls a { margin-top: -50px;}

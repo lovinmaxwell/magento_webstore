@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<ma_sagitta>
+    <resources>
+        <resource>
+            <title>Ma_sagitta Home page</title>
+            <identifier>ma_sagitta_home</identifier>
+            <root_template>two_columns_left</root_template>
+				<content><![CDATA[
+				<div class="home-content">{{widget type="categorytabsliders/advanced" title="Weekly Featured" cat_ids="155,8" template="magentothem/categorytabsliders/categorytabsliders.phtml" products_count="15" width_thumbnail="500" height_thumbnail="500"}}{{block type="cms/block" block_id="custom_block"}} {{widget type="categorytabs/advanced" title="Recently Bought" identify="new_products" cat_ids="156,10" template="magentothem/categorytabs/categorytabs.phtml" products_count="6" product_on_row="3" width_thumbnail="500" height_thumbnail="500"}} {{block type="cms/block" block_id="banner_center_one"}} {{block type="newproductslider/newproductslider" name="newproductslider" template="magentothem/newproductslider/newproductslider.phtml"}} {{block type="cms/block" block_id="banner_subscribe"}} {{block type="mostviewedproduct/mostviewedproduct" name="mostviewedproduct" template="magentothem/mostviewedproduct/mostviewedproduct.phtml"}}</div>
+				]]></content>
+				<sort_order>1</sort_order>
+            <is_active>1</is_active>
+        </resource>
+    </resources>
+</ma_sagitta>

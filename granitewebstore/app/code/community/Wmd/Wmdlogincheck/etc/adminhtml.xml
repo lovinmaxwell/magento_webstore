@@ -1,0 +1,41 @@
+<?xml version="1.0"?> 
+<!--
+/**
+ * WMD Extensions 
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the EULA
+ *
+ * @category  Wmd
+ * @package   Wmd_Wmdlogincheck
+ * @author    Dominik Wyss <info@wmdextensions.com>
+ * @copyright 2014 Dominik Wyss | WMD Extensions  
+ * @link      http://wmdextensions.com/
+ * @license   http://wmdextensions.com/WMD-License-Community.txt 
+ */
+-->
+<config>  
+		<acl>
+  			<resources>
+    				<all>
+    				    <title>Allow Everything</title>
+    				</all>
+    				<admin>
+      					<children>
+        						<system>
+          						  <children>
+            						    <config>  
+                  						  <children> 
+                    						    <wmdlogincheck>
+                    						        <title>Login Check</title>
+                    						    </wmdlogincheck>
+                  						  </children>
+            						    </config>
+          						  </children>
+                    </system>
+      					</children>
+    				</admin>
+  			</resources>
+		</acl>
+</config>  
+     

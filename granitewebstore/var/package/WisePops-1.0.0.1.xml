@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<package>
+    <name>WisePops</name>
+    <version>1.0.0.1</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/mit-license.php">MIT License</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>- Beautiful Pop-Ups, In a Snap&#xD;
+- Run all your ec-ommerce campaigns &#xD;
+- Advanced Targeting</summary>
+    <description>Amazing Pop-Ups In Just A Few Clicks WisePops makes it ridiculously easy to create beautiful pop-ups that will meet your shop unique design &amp; identity: just drag'n'drop blocks, customize size, fonts or colors and save! And if you are HTML friendly, you can also fully custom HTML/CSS. Advanced Targeting For Higher Conversions WisePops enables you to set exactly where, when and how the pop-up will be displayed (e.g. new visitor coming from Facebook, repeat visitor leaving your site, mobile visitors, etc.). You can then easily track conversions for each campaign. Empowers All Your e-commerce Campaigns In addition to helping you get (tons of) new email subscribers, WisePops is your daily tool for all the marketing campaigns of your shop (new arrival, new promotion, fanpage, etc.). Whenever you need to promote something, create a pop-up and feature it to your visitors in minutes! Features include: Drag'n drop builder, exit pop-up, side pop-up, sync with Mailchimp (with or without double opt-in), mobile friendly, CSS custom, targeted display, Google Analytics integration, and more.</description>
+    <notes>Amazing Pop-Ups In Just A Few Clicks WisePops makes it ridiculously easy to create beautiful pop-ups that will meet your shop unique design &amp;amp; identity: just drag'n'drop blocks, customize size, fonts or colors and save! And if you are HTML friendly, you can also fully custom HTML/CSS.&#xD;
+&#xD;
+Advanced Targeting For Higher Conversions WisePops enables you to set exactly where, when and how the pop-up will be displayed (e.g. new visitor coming from Facebook, repeat visitor leaving your site, mobile visitors, etc.). You can then easily track conversions for each campaign.&#xD;
+&#xD;
+Empowers All Your e-commerce Campaigns In addition to helping you get (tons of) new email subscribers, WisePops is your daily tool for all the marketing campaigns of your shop (new arrival, new promotion, fanpage, etc.). Whenever you need to promote something, create a pop-up and feature it to your visitors in minutes!&#xD;
+&#xD;
+Features include: Drag'n drop builder, exit pop-up, side pop-up, sync with Mailchimp (with or without double opt-in), mobile friendly, CSS custom, targeted display, Google Analytics integration, and more.</notes>
+    <authors><author><name>Wisepops</name><user>Wise_Pops</user><email>wisepops-integration@inovia-team.com</email></author></authors>
+    <date>2015-03-17</date>
+    <time>11:04:57</time>
+    <contents><target name="magecommunity"><dir name="Wisepops"><dir name="Connect"><dir name="Block"><dir name="System"><dir name="Configuration"><dir name="Frontend"><dir name="Button"><file name="Abstract.php" hash="f45330a198bd18e1b2422a076c899110"/><file name="AlreadyRegistered.php" hash="dfedc31adf62d92e21f45d7a8779ba36"/><file name="NotRegistered.php" hash="bc0689a27e43779837a8999019771960"/></dir></dir></dir></dir><file name="Wisepops.php" hash="e3a9994e469cb1387a8f1511a1e1bcd7"/></dir><dir name="Helper"><file name="Data.php" hash="482a664d8441fb14472e6f94b8fd3937"/></dir><dir name="Model"><file name="Observer.php" hash="2e2b9e26d238993f6093fed99c75a129"/></dir><dir name="etc"><file name="config.xml" hash="6753eff389472f207d9e1008aef5477d"/><file name="system.xml" hash="15ae2acef894b043750ee0256f6987af"/></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="wisepopsconnect.xml" hash="21ef6aed5663b39f628db54427e998a9"/></dir><dir name="template"><dir name="wisepops"><file name="load.js.phtml" hash="e1a159aad67e5a28b2fa1f62cbc5ee1a"/></dir></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Wisepops_Connect.xml" hash="70daabb13bc225d3b198b828ff279308"/></dir></target><target name="mageweb"><dir name="js"><dir name="wisepops"><file name="validation.js" hash="74adf88a360012e3af6e5597abfb9e03"/></dir></dir></target><target name="magelocale"><dir><dir name="en_US"><file name="Wisepops_Connect.csv" hash="d41d8cd98f00b204e9800998ecf8427e"/></dir><dir name="fr_FR"><file name="Wisepops_Connect.csv" hash="bf7035e0f490dee8ced97b9c35cd2441"/></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>5.6.0</max></php></required></dependencies>
+</package>

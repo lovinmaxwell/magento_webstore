@@ -1,0 +1,93 @@
+<?xml version="1.0"?> 
+<!--
+/**
+ * WMD Extensions 
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the EULA
+ *
+ * @category  Wmd
+ * @package   Wmd_Wmdlogincheck
+ * @author    Dominik Wyss <info@wmdextensions.com>
+ * @copyright 2014 Dominik Wyss | WMD Extensions  
+ * @link      http://wmdextensions.com/
+ * @license   http://wmdextensions.com/WMD-License-Community.txt 
+ */
+-->
+<config>
+    <modules>
+        <Wmd_Wmdlogincheck>
+            <version>1.0.5</version>
+        </Wmd_Wmdlogincheck>
+    </modules>
+    <frontend> 
+    	  <translate>
+            <modules>
+                <Wmd_Wmdlogincheck>
+                    <files>
+                        <default>Wmd_Wmdlogincheck.csv</default>
+                    </files>
+                </Wmd_Wmdlogincheck>
+            </modules>
+        </translate>
+      	<events>
+        		<controller_action_layout_load_before>
+          			<observers>
+            				<wmd_wmdlogincheck_observer>
+              					<type>singleton</type>
+              					<class>Wmd_Wmdlogincheck_Helper_Observer</class>
+              					<method>checkLogin</method>
+            				</wmd_wmdlogincheck_observer>
+          			</observers>
+        		</controller_action_layout_load_before>
+        		<customer_registration_is_allowed>
+          			<observers>
+            				<wmd_wmdlogincheck_registration_observer>
+              					<type>singleton</type>
+              					<class>Wmd_Wmdlogincheck_Helper_Observer</class>
+              					<method>checkIsRegistrationAllowed</method>
+            				</wmd_wmdlogincheck_registration_observer>
+          			</observers>
+        		</customer_registration_is_allowed>
+      	</events>
+    </frontend> 
+    <adminhtml> 
+    	  <translate>
+            <modules>
+                <Wmd_Wmdlogincheck>
+                    <files>
+                        <default>Wmd_Wmdlogincheck.csv</default>
+                    </files>
+                </Wmd_Wmdlogincheck>
+            </modules>
+        </translate>
+    </adminhtml>
+    <global>
+        <models>             
+            <wmdlogincheck>
+                <class>Wmd_Wmdlogincheck_Model</class>            
+            </wmdlogincheck>
+        </models>
+      	<helpers>
+        		<wmdlogincheck>
+        		    <class>Wmd_Wmdlogincheck_Helper</class>
+        		</wmdlogincheck>
+      	</helpers>
+    </global>  
+    <default>
+        <wmdlogincheck>
+            <general>
+                <enable>0</enable>
+            </general>
+            <pages>
+                <allowed><![CDATA[no-route,home,about-magento-demo-store,customer-service,enable-cookies]]></allowed>
+            </pages>
+            <actions>
+                <allowed><![CDATA[/customer_account_create/,/customer_account_forgotpassword/]]></allowed>
+            </actions>
+            <contacts>
+                <protect>0</protect>
+            </contacts>
+        </wmdlogincheck>
+    </default>
+</config>

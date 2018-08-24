@@ -1,0 +1,102 @@
+.ma-bestseller-vertscroller-wrap .jcarousel-container {
+}
+#ma-bestseller-vertscroller-right, #ma-bestseller-vertscroller-left {
+	height: 5555px !important;
+}
+.ma-bestseller-vertscroller-wrap { float:left; width: 100%; display: inline-block;}
+.ma-bestseller-vertscroller-wrap  .jcarousel-container-vertical {
+    width: 172px;
+    height: 345px;
+    padding: 0;
+}
+.ma-bestseller-vertscroller-wrap  .jcarousel-clip {
+    overflow: hidden;
+}
+.ma-bestseller-vertscroller-wrap  .jcarousel-clip-vertical {
+    width: 172px;
+    height: 345px;
+}
+.ma-bestseller-vertscroller-wrap  .jcarousel-item {
+    width: 172px;
+    height: 130px;
+}
+.ma-bestseller-vertscroller-wrap .product-image {
+	float: left;
+	margin:0;
+	padding:0;
+	width: 100px;
+}
+.ma-bestseller-vertscroller-wrap .product-name  {
+	margin:0;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.ma-bestseller-vertscroller-wrap .old-price .price {
+	font-size: 14px;
+	margin-left: 6px;
+}
+.ma-bestseller-vertscroller-wrap .special-price .price { font-size: 22px;}
+.ma-bestseller-vertscroller-wrap .mt-actions { margin: 12px 0 0;}
+.ma-bestseller-vertscroller-wrap  .jcarousel-item-placeholder {
+    background: #fff;
+    color: #000;
+}
+.ma-bestseller-vertscroller-wrap .block-content li.item {
+	padding: 0;
+}
+
+/**
+ *  Vertical Buttons
+ */
+.ma-bestseller-vertscroller-wrap .jcarousel-next-vertical, 
+.ma-bestseller-vertscroller-wrap  .jcarousel-prev-vertical {
+	width: 60px;
+	height: 14px;
+	position: absolute;
+	left: 35%;
+	cursor: pointer;
+	display: none;
+}
+.ma-bestseller-vertscroller-wrap .jcarousel-next-vertical {
+    bottom: 5px;
+	background-position: 0 100%;
+}
+
+.ma-bestseller-vertscroller-wrap  .jcarousel-next-vertical:hover,
+.ma-bestseller-vertscroller-wrap  .jcarousel-next-vertical:focus {
+    background-position: 0 -28px;
+}
+.ma-bestseller-vertscroller-wrap  .jcarousel-prev-vertical {
+    top: 5px;
+}
+.ma-bestseller-vertscroller-wrap  .jcarousel-prev-vertical:hover,
+.ma-bestseller-vertscroller-wrap  .jcarousel-prev-vertical:focus {
+    background-position: 0 -14px;
+}
+@media (max-width: 1200px) {
+	.ma-bestseller-vertscroller-wrap .product-image { width: 80px;}
+	.ma-bestseller-vertscoller-content .box-bestseller {margin-left: 90px;}
+	.ma-bestseller-vertscroller-wrap .product-name a,.ma-bestseller-vertscroller-wrap .old-price .price,.ma-bestseller-vertscroller-wrap .special-price .price { font-size: 14px;}
+}
+@media (max-width: 979px) {
+	.ma-bestseller-vertscoller-content .jcarousel-container, .ma-bestseller-vertscoller-content .jcarousel-clip, .ma-bestseller-vertscoller-content .block-content li.item {min-height: 780px; width: auto !important;}
+	.ma-bestseller-vertscroller-wrap .item { height: auto !important; width: auto !important;}
+	.ma-bestseller-vertscoller-content .box-bestseller { margin: 10px 0 20px; display: inline-block; width: 100%;}
+	.ma-bestseller-vertscroller-wrap .product-image { width:160px;}
+}
+@media (max-width: 767px){
+	.ma-bestseller-vertscroller-wrap .product-image { width:100%;}
+	.ma-bestseller-vertscroller-wrap .jcarousel-container,.ma-bestseller-vertscroller-wrap .jcarousel-clip,.ma-bestseller-vertscroller-wrap .block-content li.item  { margin: 0;}
+	.ma-bestseller-vertscroller-wrap .item { width: 196px !important; margin: 0 5px 0 0;}
+	.ma-bestseller-vertscoller-content .jcarousel-container, .ma-bestseller-vertscoller-content .jcarousel-clip, .ma-bestseller-vertscoller-content .block-content li.item {min-height:360px;}
+}
+@media (max-width: 600px){
+	.ma-bestseller-vertscroller-wrap .item { width:440px !important;}
+	.ma-bestseller-vertscoller-content .jcarousel-container, .ma-bestseller-vertscoller-content .jcarousel-clip, .ma-bestseller-vertscoller-content .block-content li.item {min-height:1660px;}
+}
+@media (max-width: 380px){
+	
+	.ma-bestseller-vertscroller-wrap .item { width: 295px !important;}
+	.ma-bestseller-vertscoller-content .jcarousel-container, .ma-bestseller-vertscoller-content .jcarousel-clip, .ma-bestseller-vertscoller-content .block-content li.item {min-height:1223px;}
+}

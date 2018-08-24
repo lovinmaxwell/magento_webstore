@@ -1,0 +1,595 @@
+<block name="formkey" type="core/template" template="core/formkey.phtml"/>
+<label>All Pages</label>
+<block type="page/html" name="root" output="toHtml" template="page/3columns.phtml">
+   <block type="page/html_head" name="head" as="head">
+      <action method="addJs">
+         <script>prototype/prototype.js</script>
+      </action>
+      <action method="addJs">
+         <script>lib/ccard.js</script>
+      </action>
+      <action method="addJs">
+         <script>prototype/validation.js</script>
+      </action>
+      <action method="addJs">
+         <script>scriptaculous/builder.js</script>
+      </action>
+      <action method="addJs">
+         <script>scriptaculous/effects.js</script>
+      </action>
+      <action method="addJs">
+         <script>scriptaculous/dragdrop.js</script>
+      </action>
+      <action method="addJs">
+         <script>scriptaculous/controls.js</script>
+      </action>
+      <action method="addJs">
+         <script>scriptaculous/slider.js</script>
+      </action>
+      <action method="addJs">
+         <script>varien/js.js</script>
+      </action>
+      <action method="addJs">
+         <script>varien/form.js</script>
+      </action>
+      <action method="addJs">
+         <script>varien/menu.js</script>
+      </action>
+      <action method="addJs">
+         <script>mage/translate.js</script>
+      </action>
+      <action method="addJs">
+         <script>mage/cookies.js</script>
+      </action>
+      <block type="page/js_cookie" name="js_cookies" template="page/js/cookie.phtml"/>
+      <action method="addJs">
+         <script>magentothem/ma.jq.slide.js</script>
+      </action>
+      <action method="addJs">
+         <script>bootstrap/bootstrap-select.min.js</script>
+      </action>
+      <action method="addJs">
+         <script>bootstrap/bootstrap.js</script>
+      </action>
+      <action method="addJs">
+         <script>magentothem/jquery-ui.js</script>
+      </action>
+      <action method="addJs">
+         <script>bootstrap/bootstrap-tooltip.js</script>
+      </action>
+      <action method="addJs">
+         <script>magentothem/ma.mobilemenu.js</script>
+      </action>
+      <action method="addJs">
+         <script>magentothem/ma.menu.effect.js</script>
+      </action>
+      <action method="addJs">
+         <script>magentothem/backtotop.js</script>
+      </action>
+      <action method="addJs">
+         <script>magentothem/likebox.js</script>
+      </action>
+      <action method="addCss">
+         <stylesheet>css/bootstrap.css</stylesheet>
+      </action>
+      <action method="addCss">
+         <stylesheet>css/bootstrap-select.min.css</stylesheet>
+      </action>
+      <action method="addCss">
+         <stylesheet>css/bootstrap-theme.css</stylesheet>
+      </action>
+      <action method="addItem">
+         <type>skin_css</type>
+         <name>css/styles-ie8.css</name>
+         <params/>
+         <if>lt IE 9</if>
+      </action>
+      <action method="addItem">
+         <type>skin_css</type>
+         <name>css/styles-ie.css</name>
+         <params/>
+         <if>lt IE 8</if>
+      </action>
+      <action method="addCss">
+         <stylesheet>css/widgets.css</stylesheet>
+      </action>
+      <action method="addCss">
+         <stylesheet>css/print.css</stylesheet>
+         <params>media=&quot;print&quot;</params>
+      </action>
+      <action method="addItem">
+         <type>js</type>
+         <name>lib/ds-sleight.js</name>
+         <params/>
+         <if>lt IE 7</if>
+      </action>
+      <action method="addItem">
+         <type>js</type>
+         <name>magentothem/html5shiv.js</name>
+         <params/>
+         <if>lt IE 9</if>
+      </action>
+      <action method="addItem">
+         <type>js</type>
+         <name>magentothem/respond.min.js</name>
+         <params/>
+         <if>lt IE 9</if>
+      </action>
+      <action method="addItem">
+         <type>skin_js</type>
+         <name>js/ie6.js</name>
+         <params/>
+         <if>lt IE 7</if>
+      </action>
+   </block>
+   <block type="core/text_list" name="after_body_start" as="after_body_start" translate="label">
+      <label>Page Top</label>
+   </block>
+   <block type="page/html_notices" name="global_notices" as="global_notices" template="page/html/notices.phtml"/>
+   <block type="page/html_header" name="header" as="header">
+      <block type="page/template_links" name="top.links" as="topLinks"/>
+      <block type="page/switch" name="store_language" as="store_language" template="page/switch/languages.phtml"/>
+      <block type="directory/currency" name="currency_top" template="directory/currency.phtml"/>
+      <block type="core/text_list" name="top.menu" as="topMenu" translate="label">
+         <label>Navigation Bar</label>
+         <block type="page/html_topmenu" name="catalog.topnav" template="page/html/topmenu.phtml"/>
+      </block>
+      <block type="page/html_wrapper" name="top.container" as="topContainer" translate="label">
+         <label>Page Header</label>
+         <action method="setElementClass">
+            <value>top-container</value>
+         </action>
+      </block>
+      <block type="page/html_welcome" name="welcome" as="welcome"/>
+   </block>
+   <block type="page/html_breadcrumbs" name="breadcrumbs" as="breadcrumbs"/>
+   <block type="core/text_list" name="ma_banner" as="ma_banner" translate="label"/>
+   <block type="core/text_list" name="home_banner_static" as="home_banner_static" translate="label"/>
+   <block type="core/text_list" name="banner_left" as="banner_left" translate="label"/>
+   <block type="core/text_list" name="banner_right" as="banner_right" translate="label"/>
+   <block type="core/text_list" name="brand_slider" as="brand_slider" translate="label"/>
+   <block type="core/text_list" name="left" as="left" translate="label">
+      <label>Left Column</label>
+   </block>
+   <block type="core/messages" name="global_messages" as="global_messages"/>
+   <block type="core/messages" name="messages" as="messages"/>
+   <block type="core/text_list" name="content" as="content" translate="label">
+      <label>Main Content Area</label>
+   </block>
+   <block type="core/text_list" name="right" as="right" translate="label">
+      <label>Right Column</label>
+   </block>
+   <block type="page/html_footer" name="footer" as="footer" template="page/html/footer.phtml">
+      <block type="page/html_wrapper" name="bottom.container" as="bottomContainer" translate="label">
+         <label>Page Footer</label>
+         <action method="setElementClass">
+            <value>bottom-container</value>
+         </action>
+      </block>
+      <block type="page/switch" name="store_switcher" as="store_switcher" template="page/switch/stores.phtml"/>
+   </block>
+   <block type="core/text_list" name="before_body_end" as="before_body_end" translate="label">
+      <label>Page Bottom</label>
+      <block type="page/html_cookieNotice" name="global_cookie_notice" as="global_cookie_notice" template="page/html/cookienotice.phtml" before="-"/>
+   </block>
+</block>
+<block type="core/profiler" output="toHtml" name="core_profiler"/>
+<reference name="head">
+   <block type="core/template" name="optional_zip_countries" as="optional_zip_countries" template="directory/js/optional_zip_countries.phtml"/>
+</reference>
+<reference name="footer">
+   <block type="cms/block" name="cms_footer_links" before="footer_links">
+      <action method="setBlockId">
+         <block_id>footer_links</block_id>
+      </action>
+   </block>
+</reference>
+<reference name="right">
+   <block type="page/html" name="banner.right" after="-" template="magentothem/banner_right.phtml"/>
+</reference>
+<reference name="left">
+   <block type="page/html" name="banner.left" before="bestseller.vert.scroller.left" template="magentothem/banner_left.phtml"/>
+</reference>
+<reference name="top.links">
+   <action method="addLink" translate="label title" module="customer">
+      <label>My Account</label>
+      <url helper="customer/getAccountUrl"/>
+      <title>My Account</title>
+      <prepare/>
+      <urlParams/>
+      <position>10</position>
+   </action>
+</reference>
+<reference name="left">
+   <block type="catalog/product_compare_sidebar" before="cart_sidebar" name="catalog.compare.sidebar" template="catalog/product/compare/sidebar.phtml"/>
+</reference>
+<reference name="footer_links">
+   <action method="addLink" translate="label title" module="catalog" ifconfig="catalog/seo/site_map">
+      <label>Site Map</label>
+      <url helper="catalog/map/getCategoryUrl"/>
+      <title>Site Map</title>
+   </action>
+</reference>
+<block type="catalog/product_price_template" name="catalog_product_price_template"/>
+<reference name="catalog_product_price_template">
+   <action method="addPriceBlockType">
+      <type>msrp</type>
+      <block>catalog/product_price</block>
+      <template>catalog/product/price_msrp.phtml</template>
+   </action>
+   <action method="addPriceBlockType">
+      <type>msrp_item</type>
+      <block>catalog/product_price</block>
+      <template>catalog/product/price_msrp_item.phtml</template>
+   </action>
+   <action method="addPriceBlockType">
+      <type>msrp_noform</type>
+      <block>catalog/product_price</block>
+      <template>catalog/product/price_msrp_noform.phtml</template>
+   </action>
+</reference>
+<reference name="header">
+   <block type="core/template" name="top.search" as="topSearch" template="catalogsearch/form.mini.phtml"/>
+</reference>
+<reference name="footer_links">
+   <action method="addLink" translate="label title" module="catalogsearch" ifconfig="catalog/seo/search_terms">
+      <label>Search Terms</label>
+      <url helper="catalogsearch/getSearchTermUrl"/>
+      <title>Search Terms</title>
+   </action>
+   <action method="addLink" translate="label title" module="catalogsearch">
+      <label>Advanced Search</label>
+      <url helper="catalogsearch/getAdvancedSearchUrl"/>
+      <title>Advanced Search</title>
+   </action>
+</reference>
+<reference name="footer_links">
+   <block type="sales/guest_links" name="return_link"/>
+   <action method="addLinkBlock">
+      <blockName>return_link</blockName>
+   </action>
+</reference>
+<reference name="top.links">
+   <block type="checkout/links" name="checkout_cart_link">
+      <action method="addCartLink"/>
+      <action method="addCheckoutLink"/>
+   </block>
+</reference>
+<reference name="right">
+   <block type="checkout/cart_sidebar" name="cart_sidebar" template="checkout/cart/sidebar.phtml" before="-">
+      <action method="addItemRender">
+         <type>simple</type>
+         <block>checkout/cart_item_renderer</block>
+         <template>checkout/cart/sidebar/default.phtml</template>
+      </action>
+      <action method="addItemRender">
+         <type>grouped</type>
+         <block>checkout/cart_item_renderer_grouped</block>
+         <template>checkout/cart/sidebar/default.phtml</template>
+      </action>
+      <action method="addItemRender">
+         <type>configurable</type>
+         <block>checkout/cart_item_renderer_configurable</block>
+         <template>checkout/cart/sidebar/default.phtml</template>
+      </action>
+      <block type="core/text_list" name="cart_sidebar.extra_actions" as="extra_actions" translate="label" module="checkout">
+         <label>Shopping Cart Sidebar Extra Actions</label>
+      </block>
+   </block>
+</reference>
+<reference name="right">
+   <block type="poll/activePoll" name="right.poll">
+      <action method="setPollTemplate">
+         <template>poll/active.phtml</template>
+         <type>poll</type>
+      </action>
+      <action method="setPollTemplate">
+         <template>poll/result.phtml</template>
+         <type>results</type>
+      </action>
+   </block>
+</reference>
+<reference name="left">
+   <block type="tag/popular" name="tags_popular" after="bestseller.vert.scroller.left" template="tag/popular.phtml"/>
+</reference>
+<reference name="head" before="-">
+   <block type="googleanalytics/ga" name="google_analytics" as="google_analytics" template="googleanalytics/ga.phtml"/>
+</reference>
+<reference name="top.links">
+   <block type="wishlist/links" name="wishlist_link"/>
+   <action method="addLinkBlock">
+      <blockName>wishlist_link</blockName>
+   </action>
+</reference>
+<reference name="right">
+   <block type="wishlist/customer_sidebar" name="wishlist_sidebar" as="wishlist" after="cart_sidebar" template="wishlist/sidebar.phtml"/>
+</reference>
+<reference name="topCart.extra_actions">
+   <block type="paypaluk/express_shortcut" name="paypaluk.partner.top_cart.shortcut" template="paypal/express/shortcut.phtml"/>
+</reference>
+<reference name="cart_sidebar.extra_actions">
+   <block type="paypaluk/express_shortcut" name="paypaluk.partner.cart_sidebar.shortcut" template="paypal/express/shortcut.phtml"/>
+</reference>
+<reference name="footer_links">
+   <action method="addLink" translate="label title" module="contacts" ifconfig="contacts/contacts/enabled">
+      <label>Contact Us</label>
+      <url>contacts</url>
+      <title>Contact Us</title>
+      <prepare>true</prepare>
+   </action>
+</reference>
+<reference name="footer_links">
+   <action method="addLink" translate="label title" module="rss" ifconfig="rss/config/active">
+      <label>RSS</label>
+      <url>rss</url>
+      <title>RSS</title>
+      <prepare>true</prepare>
+      <urlParams/>
+      <position/>
+      <li/>
+      <a>class=&quot;link-rss&quot;</a>
+   </action>
+</reference>
+<block type="rss/list" name="head_rss" ifconfig="rss/config/active"/>
+<reference name="cart_sidebar">
+   <action method="addItemRender">
+      <type>bundle</type>
+      <block>bundle/checkout_cart_item_renderer</block>
+      <template>checkout/cart/sidebar/default.phtml</template>
+   </action>
+</reference>
+<reference name="wishlist_sidebar">
+   <action method="addPriceBlockType">
+      <type>bundle</type>
+      <block>bundle/catalog_product_price</block>
+      <template>bundle/catalog/product/price.phtml</template>
+   </action>
+</reference>
+<reference name="catalog_product_price_template">
+   <action method="addPriceBlockType">
+      <type>bundle</type>
+      <block>bundle/catalog_product_price</block>
+      <template>bundle/catalog/product/price.phtml</template>
+   </action>
+</reference>
+<reference name="before_body_end">
+   <block type="core/template" name="quickcontact" template="quickcontact/form.phtml"/>
+</reference>
+<reference name="head">
+   <action method="addJs">
+      <script>magentothem/ma.jq.slide.js</script>
+   </action>
+   <action method="addJs">
+      <script>magentothem/ajax_cart_super.js</script>
+   </action>
+   <action method="addJs">
+      <script>magentothem/fancybox/jquery.fancybox.js</script>
+   </action>
+   <action method="addCss">
+      <stylesheet>magentothem/fancybox/jquery.fancybox.css</stylesheet>
+   </action>
+   <action method="addCss">
+      <stylesheet>magentothem/ajaxcartsuper/ajax_cart_super.css</stylesheet>
+   </action>
+</reference>
+<reference name="header">
+   <block type="checkout/cart_sidebar" as="top_cart_mini" name="cart_sidebar_mini" template="magentothem/ajaxcartsuper/checkout/cart/topcart.phtml" before="-">
+      <action method="addItemRender">
+         <type>simple</type>
+         <block>checkout/cart_item_renderer</block>
+         <template>checkout/cart/sidebar/default.phtml</template>
+      </action>
+      <action method="addItemRender">
+         <type>grouped</type>
+         <block>checkout/cart_item_renderer_grouped</block>
+         <template>checkout/cart/sidebar/default.phtml</template>
+      </action>
+      <action method="addItemRender">
+         <type>configurable</type>
+         <block>checkout/cart_item_renderer_configurable</block>
+         <template>checkout/cart/sidebar/default.phtml</template>
+      </action>
+      <block type="core/text_list" name="cart_sidebar.extra_actions" as="extra_actions" translate="label" module="checkout">
+         <label>Shopping Cart Sidebar Extra Actions</label>
+      </block>
+   </block>
+   <block type="checkout/cart_sidebar" as="top_cart_mini_mobile" name="cart_sidebar_mini_mobile" template="magentothem/ajaxcartsuper/checkout/cart/topcart_mobile.phtml" before="-">
+      <action method="addItemRender">
+         <type>simple</type>
+         <block>checkout/cart_item_renderer</block>
+         <template>checkout/cart/sidebar/default.phtml</template>
+      </action>
+      <action method="addItemRender">
+         <type>grouped</type>
+         <block>checkout/cart_item_renderer_grouped</block>
+         <template>checkout/cart/sidebar/default.phtml</template>
+      </action>
+      <action method="addItemRender">
+         <type>configurable</type>
+         <block>checkout/cart_item_renderer_configurable</block>
+         <template>checkout/cart/sidebar/default.phtml</template>
+      </action>
+      <block type="core/text_list" name="cart_sidebar.extra_actions" as="extra_actions" translate="label" module="checkout">
+         <label>Shopping Cart Sidebar Extra Actions</label>
+      </block>
+   </block>
+</reference>
+<reference name="before_body_end">
+   <block type="ajaxcartsuper/ajaxcartconfig" name="ajaxcartconfig" template="magentothem/ajaxcartsuper/ajaxcartconfig.phtml"/>
+</reference>
+<reference name="head">
+   <action method="addCss" ifconfig="bestsellerproductvertscroller/bestsellerproductvertscroller_config/enabled">
+      <stylesheet>magentothem/css/ma.bestsellervertscroller.css</stylesheet>
+   </action>
+   <action method="addJs" ifconfig="bestsellerproductvertscroller/bestsellerproductvertscroller_config/enabled">
+      <script>magentothem/ma.jq.slide.js</script>
+   </action>
+   <action method="addJs" ifconfig="bestsellerproductvertscroller/bestsellerproductvertscroller_config/enabled">
+      <script>magentothem/ma.script.vert.js</script>
+   </action>
+</reference>
+<reference name="left">
+   <block type="bestsellerproductvertscroller/bestsellerproductvertscroller" before="tags_popular" name="bestseller.vert.scroller.left" template="magentothem/bestsellerproductvertscroller/bestsellerleft.phtml"/>
+</reference>
+<reference name="right">
+   <block type="bestsellerproductvertscroller/bestsellerproductvertscroller" before="banner.right" name="bestseller.vert.scroller.right" template="magentothem/bestsellerproductvertscroller/bestsellerright.phtml"/>
+</reference>
+<reference name="head">
+   <action method="addCss" ifconfig="brandslider/brandslider_config/enabled">
+      <stylesheet>magentothem/css/ma.brandslider.css</stylesheet>
+   </action>
+   <action method="addJs" ifconfig="brandslider/brandslider_config/enabled">
+      <script>magentothem/ma.jq.slide.js</script>
+   </action>
+   <action method="addJs" ifconfig="brandslider/brandslider_config/enabled">
+      <script>magentothem/ma.bxslider.min.js</script>
+   </action>
+</reference>
+<reference name="brand_slider">
+            
+            
+        </reference>
+<reference name="head">
+   <action method="addCss">
+      <stylesheet>magentothem/css/categorytabs.css</stylesheet>
+   </action>
+</reference>
+<reference name="head">
+   <action method="addCss">
+      <stylesheet>magentothem/css/categorytabsliders.css</stylesheet>
+   </action>
+   <action method="addJs">
+      <script>magentothem/ma.jq.slide.js</script>
+   </action>
+   <action method="addJs">
+      <script>magentothem/ma.bxslider.min.js</script>
+   </action>
+</reference>
+<reference name="head">
+   <action method="addCss" ifconfig="catlist/list_config/enabled">
+      <stylesheet>magentothem/catlist/css/style.css</stylesheet>
+   </action>
+</reference>
+<reference name="head">
+   <action method="addJs" ifconfig="custommenu/general/enabled">
+      <script>magentothem/ma.jq.slide.js</script>
+   </action>
+   <action method="addCss" ifconfig="custommenu/general/enabled">
+      <stylesheet>magentothem/css/custommenu.css</stylesheet>
+   </action>
+   <action method="addJs" ifconfig="custommenu/general/enabled">
+      <script>magentothem/custommenu/custommenu.js</script>
+   </action>
+</reference>
+<reference name="catalog.topnav">
+   <action method="setTemplate" ifconfig="custommenu/general/enabled">
+      <template>magentothem/custommenu/custommenu.phtml</template>
+   </action>
+</reference>
+<reference name="head">
+   <action method="addCss">
+      <stylesheet>magentothem/imagerotator/effect.css</stylesheet>
+   </action>
+</reference>
+<reference name="head">
+   <action method="addJs">
+      <script>magentothem/ma.jq.slide.js</script>
+   </action>
+   <action method="addCss">
+      <script>layerednavigationajax/jquery-ui.css</script>
+   </action>
+</reference>
+<reference name="head">
+   <action method="addCss" ifconfig="onsaleslider/onsaleslider_config/enabled">
+      <stylesheet>magentothem/css/ma.onsaleslider.css</stylesheet>
+   </action>
+   <action method="addJs" ifconfig="featuredproductslider/featuredproductslider_config/enabled">
+      <script>magentothem/ma.jq.slide.js</script>
+   </action>
+   <action method="addJs" ifconfig="featuredproductslider/featuredproductslider_config/enabled">
+      <script>magentothem/ma.bxslider.min.js</script>
+   </action>
+</reference>
+<reference name="left">
+   <block type="onsaleslider/onsaleslider" name="ma.onsaleslider" after="tags_popular" template="magentothem/onsaleslider/onsaleslider.phtml"/>
+</reference>
+<reference name="head">
+   <action method="addCss" ifconfig="searchbycaterory/settings/enabled">
+      <stylesheet>magentothem/css/searchbycategory.css</stylesheet>
+   </action>
+</reference>
+<reference name="top.search">
+   <action method="setTemplate" ifconfig="searchbycaterory/settings/enabled">
+      <template>magentothem/searchbycaterory/form.phtml</template>
+   </action>
+   <block type="searchbycaterory/form_contents" name="top.search.content" as="topSearchContent" template="magentothem/searchbycaterory/form/contents.phtml"/>
+</reference>
+<reference name="root">
+   <block type="upsellslider/page_html_head" name="upsell_slider" as="upsell_slider"/>
+</reference>
+<reference name="head">
+   <action method="addCss" ifconfig="upsellslider/upsellslider_config/enabled">
+      <stylesheet>magentothem/css/ma.upsellslider.css</stylesheet>
+   </action>
+   <action method="addJs" ifconfig="upsellslider/upsellslider_config/enabled">
+      <script>magentothem/ma.jq.slide.js</script>
+   </action>
+   <action method="addJs" ifconfig="upsellslider/upsellslider_config/enabled">
+      <script>magentothem/ma.bxslider.min.js</script>
+   </action>
+</reference>
+<reference name="head">
+   <action method="addCss" ifconfig="vmegamenu/general/leftmenu">
+      <stylesheet>magentothem/css/leftvmegamenu.css</stylesheet>
+   </action>
+   <action method="addCss" ifconfig="vmegamenu/general/rightmenu">
+      <stylesheet>magentothem/css/rightvmegamenu.css</stylesheet>
+   </action>
+   <action method="addJs" ifConfig="vmegamenu/general/enabled">
+      <script>magentothem/ma.jq.slide.js</script>
+   </action>
+</reference>
+<reference name="left">
+   <block type="vmegamenu/vmegamenu" name="catalog.leftvmegamenu" before="catalog.leftnav">
+      <action method="setTemplate" ifconfig="vmegamenu/general/leftmenu">
+         <template>magentothem/vmegamenu/vmegamenu.phtml</template>
+      </action>
+   </block>
+</reference>
+<reference name="right">
+   <block type="vmegamenu/vmegamenu" name="catalog.rightvmegamenu" before="catalog.rightnav">
+      <action method="setTemplate" ifconfig="vmegamenu/general/rightmenu">
+         <template>magentothem/vmegamenu/vmegamenu.phtml</template>
+      </action>
+   </block>
+</reference>
+<reference name="before_body_end">
+   <block type="wisepopsconnect/wisepops" name="wisepops.loader" template="wisepops/load.js.phtml"/>
+</reference>
+<remove name="bestseller.vert.scroller.left"/>
+<remove name="banner.left"/>
+<remove name="featuredproduct"/>
+<remove name="banner8"/>
+<remove name="ma.onsaleslider"/>
+<reference name="root">
+   <action method="setTemplate">
+      <template>page/2columns-left.phtml</template>
+   </action>
+</reference>
+<reference name="content">
+   <block type="newproductlist/newproductlist" name="newproductlist" template="catalog/product/list.phtml"/>
+</reference>
+<reference name="top.links">
+   <action method="addLink" translate="label title" module="customer">
+      <label>Log In</label>
+      <url helper="customer/getLoginUrl"/>
+      <title>Log In</title>
+      <prepare/>
+      <urlParams/>
+      <position>100</position>
+   </action>
+</reference>
+<remove name="reorder"/>
+<reference name="right">
+   <block type="sales/reorder_sidebar" name="sale.reorder.sidebar" as="reorder" template="sales/reorder/sidebar.phtml"/>
+</reference>
